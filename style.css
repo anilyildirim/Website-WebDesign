@@ -16,6 +16,10 @@ body {
 	padding: 0px;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+	cursor: default;
+}
+
 header {
 	margin: 0px;
 	background-image: url("img/showcase.jpeg");
@@ -68,14 +72,13 @@ nav a {
 	text-transform: uppercase;
 	font-size: 0.8rem;
 	letter-spacing: 0.1rem;
+	padding-bottom: 5px;
 }
 
-nav li:hover {
-	border-bottom: 0.5px solid #f44336;
-}
 
 nav a:hover {
 	color: #f44336;
+	border-bottom: 0.5px solid #f44336;
 }
 
 .showcase {
@@ -89,13 +92,11 @@ nav a:hover {
 	margin: 5%;
 	line-height: 4rem;
 	font-weight: 400;
-	cursor: default;
 }
 
 .showcase p {
 	font-size: 1.25rem;
 	margin: 5%;
-	cursor: default;
 }
 
 button.more  {
@@ -208,7 +209,6 @@ button.more:hover {
 .information p {
 	font-size: 1rem;
 	font-weight: 300;
-
 }
 
 button.viewportfolio {
